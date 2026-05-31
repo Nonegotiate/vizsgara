@@ -1,0 +1,68 @@
+Fájl- és könyvtárkezelés:
+
+ls – Listázza a könyvtár tartalmát.
+cd – Könyvtárváltás.
+pwd – Kiírja az aktuális könyvtár elérési útját.
+mkdir – Új könyvtár létrehozása.
+rmdir – Üres könyvtár törlése.
+rm – Fájl vagy könyvtár törlése.
+mv – Fájl vagy könyvtár áthelyezése vagy átnevezése.
+cp – Fájl vagy könyvtár másolása.
+touch – Üres fájl létrehozása.
+tree – Könyvtárstruktúra fa alakban.
+ln – Hard link létrehozása.
+ln -s – Szimbolikus link létrehozása.
+
+Felhasználókezelés:
+
+sudo – Parancs futtatása rendszergazdai jogosultsággal.
+su – Felhasználóváltás (általában root).
+login – Bejelentkezés a rendszerbe.
+logout / exit – Kijelentkezés vagy shell bezárása.
+adduser / deluser – Felhasználó hozzáadása / törlése.
+usermod – Felhasználó módosítása.
+addgroup / delgroup – Csoport hozzáadása / törlése.
+groups / users / id – Felhasználó csoportjainak lekérdezése.
+passwd – Jelszó módosítása.
+chage – Jelszó lejárati beállítások.
+getent – Adatok lekérdezése
+
+Hálózati parancsok:
+
+ip / ifconfig – Hálózati interfészek konfigurálása.
+ping – Elérhetőség tesztelése.
+ufw – Tűzfal kezelése.
+netplan – Hálózati beállítások konfigurálása.
+
+Rendszerparancsok:
+
+reboot / shutdown / poweroff – Rendszer újraindítása / leállítása.
+systemctl – Szolgáltatások kezelése (systemd).
+startx – Grafikus felület indítása.
+date – Dátum és idő megjelenítése.
+htop / ps / pidof / jobs / kill – Folyamatkezelés, erőforrásfigyelés.
+cfdisk / lsblk / blkid / df / free – Lemez- és partíciókezelés, tárhelyinformációk.
+
+Szövegkezelés:
+
+cat – Fájl tartalmának kiírása.
+nano / mcedit / mc – Szövegszerkesztők.
+more / less / tail – Fájl megtekintése lapozva vagy a végéből.
+grep / awk / sed / tr / wc – Szövegkeresés, feldolgozás, statisztika.
+
+
+Súgó és dokumentáció:
+
+man – Kézikönyv megnyitása.
+whatis – Parancs rövid leírása.
+
+Speciális karakterek és operátorok:
+
+> / >> – Kimenet átirányítása fájlba (felülírás / hozzáfűzés).
+& – Parancs háttérben futtatása.
+| – Pipe: kimenet továbbítása másik parancsnak.
+- / -- – Rövid / hosszú opciók parancsokhoz.
+~ – Felhasználó saját könyvtára.
+. / .. – Aktuális / szülő könyvtár. (könyvtár, amely egy másik könyvtárat vagy fájlt tartalmaz.)
+/ – Gyökérkönyvtár. (könyvtár, amely egy szülő könyvtáron belül található.)
+# – Megjegyzés a parancssorban.
